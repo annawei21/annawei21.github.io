@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Trebuchet',sans-serif; 
+	font-family: 'Julius Sans One',sans-serif; 
 	background: #181B27;
 	height: 100%;
 	width: 100%;  
@@ -22,7 +22,7 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 }
 p{
 	margin:0;
@@ -64,7 +64,7 @@ body a:focus {
     /* margin: 0 auto; */
     letter-spacing: 3px;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	    text-shadow: 4px 4px 4px rgba(16, 16, 16, 0.57);
 		    font-weight: 900;
 	}
@@ -447,7 +447,7 @@ background-color: #87DCE9cc;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .contact button.btn.btn-primary:hover{
     background-color: #000;
@@ -620,7 +620,7 @@ p.footer-w3l-te{
     text-align: center;
     width: 80%;
     margin:.5em auto 2em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 }
 ul.w3_address li {
     display: block;
@@ -632,7 +632,7 @@ ul.w3_address li {
     width: 25%;
     float: left;
 	font-weight: 500;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
 }
 ul.w3_address li span {
     margin-top: 10px;
@@ -816,7 +816,7 @@ ul.banner-menu-w3layouts li a:hover {
     color: #212121;
     text-decoration: none;
     letter-spacing: 2px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     padding: 0;
     font-weight: 800;
 	text-transform:uppercase;
