@@ -250,6 +250,9 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     width:73%;
     padding: 1.5em 0em;
 }
+.text-w3l p {
+    font:weight:100!important;
+}
 /*-- //About-ends-here --*/
 /*-- skills --*/
 .skills,.contact,.skills-agileinfo,.gallery{
