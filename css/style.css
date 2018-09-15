@@ -743,8 +743,9 @@ ul.banner-menu-w3layouts li a:hover {
 .social-wthree-icons ul li a.fa.twitter:hover{
 	color:#4099ff;   
 } 
-.social-wthree-icons ul li a.fa.googleplus:hover{
-	color:#d34836;   
+.social-wthree-icons ul li a.fa.instagram:hover{
+    color:#FFFFFF;
+    ;   
 } 
 .social-wthree-icons ul li a.fa.dribbble:hover{
 	color:#ec4a89;   
@@ -779,20 +780,20 @@ ul.banner-menu-w3layouts li a:hover {
 	-ms-box-shadow: inset 0 0 0 2px #333;
 	box-shadow: inset 0 0 0 2px #333;
 } 
-/* google plus */
-.icon-border.googleplus::before {
-	-webkit-box-shadow: inset 0 0 0 48px #d34836;
-	-moz-box-shadow: inset 0 0 0 48px #d34836;
-	-o-box-shadow: inset 0 0 0 48px #d34836;
-	-ms-box-shadow: inset 0 0 0 48px #d34836;
-	box-shadow: inset 0 0 0 48px #d34836;
+/* instagram */
+.icon-border.instagram::before {
+	-webkit-box-shadow: inset 0 0 0 48px #F7B3DA;
+	-moz-box-shadow: inset 0 0 0 48px #F7B3DA;
+	-o-box-shadow: inset 0 0 0 48px #F7B3DA;
+	-ms-box-shadow: inset 0 0 0 48px #F7B3DA;
+	box-shadow: inset 0 0 0 48px #F7B3DA;
 } 
-.icon-border.googleplus:hover::before {
-	-webkit-box-shadow: inset 0 0 0 2px #d34836;
-	-moz-box-shadow: inset 0 0 0 2px #d34836;
-	-o-box-shadow: inset 0 0 0 2px #d34836;
-	-ms-box-shadow: inset 0 0 0 2px #d34836;
-	box-shadow: inset 0 0 0 2px #d34836;
+.icon-border.instagram:hover::before {
+	-webkit-box-shadow: inset 0 0 0 2px #F7B3DA;
+	-moz-box-shadow: inset 0 0 0 2px #F7B3DA;
+	-o-box-shadow: inset 0 0 0 #F7B3DA;
+	-ms-box-shadow: inset 0 0 0 2px #F7B3DA;
+	box-shadow: inset 0 0 0 2px #F7B3DA;
 } 
 /* dribbble */
 .icon-border.dribbble::before {
