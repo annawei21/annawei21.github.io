@@ -782,18 +782,18 @@ ul.banner-menu-w3layouts li a:hover {
 } 
 /* instagram */
 .icon-border.instagram::before {
-	-webkit-box-shadow: inset 0 0 0 48px #F7B3DA;
-	-moz-box-shadow: inset 0 0 0 48px #F7B3DA;
-	-o-box-shadow: inset 0 0 0 48px #F7B3DA;
-	-ms-box-shadow: inset 0 0 0 48px #F7B3DA;
-	box-shadow: inset 0 0 0 48px #F7B3DA;
+	-webkit-box-shadow: inset 0 0 0 48px #cd486b;
+	-moz-box-shadow: inset 0 0 0 48px #cd486b;
+	-o-box-shadow: inset 0 0 0 48px #cd486b;
+	-ms-box-shadow: inset 0 0 0 48px #cd486b;
+	box-shadow: inset 0 0 0 48px #cd486b;
 } 
 .icon-border.instagram:hover::before {
-	-webkit-box-shadow: inset 0 0 0 2px #F7B3DA;
-	-moz-box-shadow: inset 0 0 0 2px #F7B3DA;
-	-o-box-shadow: inset 0 0 0 #F7B3DA;
-	-ms-box-shadow: inset 0 0 0 2px #F7B3DA;
-	box-shadow: inset 0 0 0 2px #F7B3DA;
+	-webkit-box-shadow: inset 0 0 0 2px #cd486b;
+	-moz-box-shadow: inset 0 0 0 2px #cd486b;
+	-o-box-shadow: inset 0 0 0 #cd486b;
+	-ms-box-shadow: inset 0 0 0 2px #cd486b;
+	box-shadow: inset 0 0 0 2px #cd486b;
 } 
 /* dribbble */
 .icon-border.dribbble::before {
