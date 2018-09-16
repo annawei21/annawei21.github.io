@@ -250,8 +250,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     width:73%;
     padding: 1.5em 0em;
 }
-.text-w3l p {
-    font:weight:100!important;
+
 }
 /*-- //About-ends-here --*/
 /*-- skills --*/
@@ -781,18 +780,18 @@ ul.banner-menu-w3layouts li a:hover {
 } 
 /* google plus */
 .icon-border.googleplus::before {
-	-webkit-box-shadow: inset 0 0 0 48px #d34836;
-	-moz-box-shadow: inset 0 0 0 48px #d34836;
-	-o-box-shadow: inset 0 0 0 48px #d34836;
-	-ms-box-shadow: inset 0 0 0 48px #d34836;
-	box-shadow: inset 0 0 0 48px #d34836;
+	-webkit-box-shadow: inset 0 0 0 48px #cd486b;
+	-moz-box-shadow: inset 0 0 0 48px #cd486b;
+	-o-box-shadow: inset 0 0 0 48px #cd486b;
+	-ms-box-shadow: inset 0 0 0 48px #cd486b;
+	box-shadow: inset 0 0 0 48px #cd486b;
 } 
 .icon-border.googleplus:hover::before {
-	-webkit-box-shadow: inset 0 0 0 2px #d34836;
-	-moz-box-shadow: inset 0 0 0 2px #d34836;
-	-o-box-shadow: inset 0 0 0 2px #d34836;
-	-ms-box-shadow: inset 0 0 0 2px #d34836;
-	box-shadow: inset 0 0 0 2px #d34836;
+	-webkit-box-shadow: inset 0 0 0 2px #cd486b;
+	-moz-box-shadow: inset 0 0 0 2px #cd486b;
+	-o-box-shadow: inset 0 0 0 2px #cd486b;
+	-ms-box-shadow: inset 0 0 0 2px #cd486b;
+	box-shadow: inset 0 0 0 2px #cd486b;
 } 
 /* dribbble */
 .icon-border.dribbble::before {
