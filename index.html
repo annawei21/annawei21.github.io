@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"style="border: solid; border-width: 1.5em; border-color: #87DCE9">
 
 <head>
 	<title>Anna Wei</title>
@@ -28,7 +28,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 	<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
 	<link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all" />
-
+	<link href="css/smoothness/jquery-ui-1.9.0.custom.css" rel="stylesheet">
+	<script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>
+	<script src="js/jquery-ui-1.9.0.custom.js"></script>
 	<!-- //Custom Theme files -->
 	<!-- js -->
 	<script src="js/jquery-2.2.3.min.js"></script>
@@ -42,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //web-fonts -->
 </head>
 
-<body>
+<body >
 
 	<div class="w3-banner">
 
@@ -75,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 							<div class="text-w3l">
 								<h4>Hey there!</h4>
-								<p style="font-weight:100!important">Welcome to my website! I'm a student currently enrolled in Mechanical Engineering at the University of Waterloo. I love hiking, eating mangoes, and petting dogs.</p>
+								<p style="font-weight:100!important">I'm Anna. I'm currently studying Mechanical Engineering at the University of Waterloo.</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -93,7 +95,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<i class="fa fa-user" aria-hidden="true"></i>
 					</div>
 					<div class="w3-banner-bot_icon_txt">
-						<a href="Anna Wei Site Resume.pdf">RESUME</a>
+							<a href="#" id="trigger">RESUME</a>
+							<div id="dialog" style="display:none">
+								<div>
+								<iframe src="Anna Wei Site Resume.pdf"></iframe>
+								</div>
+							</div> 
 					</div>
 				</div>
 				<div cla ss="clearfix"></div>
@@ -322,6 +329,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				});
 			});
 		</script>
+		<script language="javascript" type="text/javascript">
+			$(document).ready(function() {
+			  $('#trigger').click(function(){
+				$("#dialog").dialog();
+			  }); 
+			});                  
+		  </script>
 		<!-- //gauge-meter -->
 
 
