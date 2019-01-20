@@ -9,7 +9,8 @@ body{
 	font-family: 'venti', sans-serif; 
 	background: #181B27;
 	height: 100%;
-	width: 100%;  
+    width: 100%;  
+    overflow-y: scroll;
 }  
 body a{
 	transition: 0.5s all;
@@ -20,13 +21,12 @@ body a{
 	text-decoration:none;
 	outline:none;
 }
-h3{
-    margin-top:100;
-    font-family: 'Julius Sans One', sans-serif;
-}
-h1,h2,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'Julius Sans One', sans-serif;
+}
+h3{
+    padding-top: 10vh;
 }
 p{
 	margin:0;
@@ -858,7 +858,7 @@ ul.banner-menu-w3layouts li a:hover {
     font-size: 1.7em;
 }
 #small-dialog, #small-dialog2, #small-dialog1 {
-    max-width: 88em;
+    max-width: 88vw;
 }
 .w3layouts_gallery_grid a {
     position: absolute;
